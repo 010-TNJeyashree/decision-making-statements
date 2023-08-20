@@ -1,0 +1,26 @@
+#include <stdio.h>
+void main()
+{int a;
+char b,c;
+printf("enter no.  1 or 2:");
+scanf("%d",&a);
+switch(a)
+{case 1:printf("enter upper(U) or lower case(L)");
+        scanf("%s",&b);
+        if(b==’U’)
+        {printf("ONE");
+        }
+        else
+        {printf("one");
+        } 
+        break;
+case 2:printf("enter upper(U) or lower case(L)");
+        scanf("%s",&c);
+        if(c=="U")
+        {printf("TWO");
+        }
+        else
+        {printf("two");
+        }
+default: printf("enter valid no.");
+}}
